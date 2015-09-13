@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+$body-bg: #AB91A7;
+$navbar-inverse-bg: #9D637B;
+$navbar-inverse-link-color: #EDBDC2;
+$navbar-inverse-link-hover-color:#FCF4DF;
+$navbar-inverse-brand-hover-color:#FCF4DF;
+$navbar-height:45px;
+$brand-info: #EDBDC2;
+$btn-info-color: #9D637B;
+$jumbotron-bg: #D38CA1;
+$jumbotron-heading-color: #FCF4DF;
+$headings-color: #FCF4DF;
+$text-color:white;
+$headings-font-family: "Pacifico";
+
+
+@import 'bootstrap';
+
+.center{
+	
+	text-align: center;
+}
+
+.navbar-brand{
+	
+	font-weight:bold;
+}
