@@ -14,6 +14,7 @@ $text-color:white;
 $headings-font-family: "Pacifico";
 
 
+
 @import 'bootstrap';
 
 .center{
@@ -24,4 +25,33 @@ $headings-font-family: "Pacifico";
 .navbar-brand{
 	
 	font-weight:bold;
+}
+
+.panel-info > .panel-heading {
+
+	background-color: #9D637B;
+	border-color: #9D637B;
+	
+}
+.panel-info {
+	border-color: #9D637B;
+
+}
+
+.panel{
+
+	background-color:#D38CA1;
+}
+
+.panel-footer{
+	background-color: #AB91A7;
+	border-color:#9D637B;
+}
+
+a {
+    color: #FCF4DF;
+}
+
+a:hover {
+    color: #EDBDC2;
 }
