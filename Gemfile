@@ -7,13 +7,15 @@ gem 'uglifier', '>= 1.3.0' # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 gem 'bootstrap-sass' #Installs bootstrap framework
 gem 'jquery-rails' # Use jquery as the JavaScript library
-gem 'turbolinks' # Turbolinks makes following links in your web application faster. 
+gem 'turbolinks' # Turbolinks makes following links in your web application faster.
+gem 'jquery-turbolinks' 
 gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 3.5.2'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2.0'
+gem 'masonry-rails'
 
 group :development, :test do
 	gem 'sqlite3'# Use sqlite3 as the database for Active Record
