@@ -14,7 +14,7 @@ $text-color:white;
 $headings-font-family: "Pacifico";
 
 
-
+@import "bootstrap-sprockets"; 
 @import 'bootstrap';
 
 .center{
@@ -58,4 +58,10 @@ a:hover {
 input#pin_image {
     background-color: #D38CA1;
     border: none;
+}
+
+.panel-default > .panel-heading {
+    
+    background-color: #AB91A7;
+   
 }
